@@ -34,15 +34,11 @@ question.prototype.isCorrectAnswer = function (answer) {
 
 //question choices
 var questions = [
-    new question("JavaScript is the programming language of ___", ["Desktop", "Mobile", "Web", "Server"], "Web"),
-    new question("In which HTML element, we put the JavaScript code", ["javascript", "js", "script", "css"], "script"),
-    new question("Which variables takes precedence over the others if the names are the same?", ["Global variable", "The local element", "The two of the above", "None of the above"], "The local element"),
-    new question("Which function returns the character in the string starting at the specified position", ["slice()", "split()", "substr()", "search()"], "substr()"),
-    new question("In JavaScript the x===y statement implies that:", ["Both are equal in value, type and reference address",
-        "Both are x and y are equal in value only",
-        "Both are equal in the value and data type",
-        "Both are not same at all."],
-        "Both are equal in the value and data type")
+    new question("The World Largest desert is ?", ["Thar", "Sahara", "Kalahari", "Sonoram"], "Sahara"),
+    new question("Country that has the highest in Barley Production ?", ["China", "India", "Pakisthan", "Russia"], "Russia"),
+    new question("The largest river in India is ?", ["Yamuna", "Ganga", "Kaveri", "Bramaputra"], "Ganga"),
+    new question("The hottest planet in the solar system ?", ["Earth", "Mars", "Venus", "Jupiter"], "Venus"),
+    new question("One People, One State, One leader was the policy of ?", ["Hitler", "Stalin", "Lenin", "Mussolin"], "Hitler")
 ]
 
 var jsQuiz = new quiz(questions);
